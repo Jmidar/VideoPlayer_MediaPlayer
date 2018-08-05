@@ -1,0 +1,616 @@
+Index: .AndroidStudio3.1/config/options/vcs.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .AndroidStudio3.1/config/options/vcs.xml	(date 1533469090316)
++++ .AndroidStudio3.1/config/options/vcs.xml	(date 1533469090316)
+@@ -0,0 +1,5 @@
++<application>
++  <component name="Vcs.Log.App.Settings">
++    <option name="MIGRATED" value="true" />
++  </component>
++</application>
+\ No newline at end of file
+Index: .AndroidStudio3.1/config/options/dimensions.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .AndroidStudio3.1/config/options/dimensions.xml	(date 1533462834000)
++++ .AndroidStudio3.1/config/options/dimensions.xml	(date 1533469568338)
+@@ -20,16 +20,22 @@
+     <location key="GitCloneDialog.0.0.1366.768" x="468" y="301" />
+     <location key="vcs.ApplyPatchDifferentiatedDialog.0.0.1366.768" x="114" y="126" />
+     <location key="svn.repositoryBrowser.0.0.1366.768" x="454" y="63" />
+-    <location key="Github.ShareDialog.0.0.1366.768" x="449" y="261" />
++    <location key="Github.ShareDialog.0.0.1366.768" x="459" y="232" />
+     <location key="Github.UntrackedFilesDialog.0.0.1366.768" x="0" y="0" />
+     <location key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate.0.0.1366.768" x="418" y="273" />
+     <location key="CommitChangelistDialog2.0.0.1366.768" x="166" y="26" />
+     <location key="Vcs.Push.Dialog.0.0.1366.768" x="328" y="121" />
+     <location key="AndroidCreateResourceFileDialog.0.0.1366.768" x="232" y="137" />
++    <location key="#Notifications.0.0.1366.768" x="401" y="106" />
++    <location key="find.popup.0.0.1366.768" x="353" y="402" />
++    <location key="Github.CreateGistDialog.0.0.1366.768" x="500" y="276" />
++    <location key="DiffContextDialog.0.0.1366.768" x="123" y="58" />
++    <location key="#Inspections.0.0.1366.768" x="283" y="65" />
+     <size key="GridCell.Tab.0.left.0.0.1366.768" width="0" height="0" />
+     <size key="GridCell.Tab.0.center.0.0.1366.768" width="0" height="0" />
+     <size key="GridCell.Tab.0.right.0.0.1366.768" width="0" height="0" />
+     <size key="GridCell.Tab.0.bottom.0.0.1366.768" width="0" height="0" />
+     <size key="javadoc.popup.0.0.1366.768" width="446" height="170" />
++    <size key="find.popup.0.0.1366.768" width="764" height="624" />
+   </component>
+ </application>
+\ No newline at end of file
+Index: .AndroidStudio3.1/config/options/feature.usage.statistics.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .AndroidStudio3.1/config/options/feature.usage.statistics.xml	(date 1533462834000)
++++ .AndroidStudio3.1/config/options/feature.usage.statistics.xml	(date 1533469090273)
+@@ -6,7 +6,7 @@
+     <feature id="refactoring.pushDown" count="0" last-shown="0" last-used="0" shown-count="0" />
+     <feature id="refactoring.inlineMacro" count="0" last-shown="0" last-used="0" shown-count="0" />
+     <feature id="refactoring.changeSignature" count="0" last-shown="0" last-used="0" shown-count="0" />
+-    <feature id="codeassists.quickFix" count="23" last-shown="0" last-used="1532925903669" shown-count="0" />
++    <feature id="codeassists.quickFix" count="24" last-shown="0" last-used="1533360919272" shown-count="0" />
+     <feature id="codeassists.altInsert" count="0" last-shown="0" last-used="0" shown-count="0" />
+     <feature id="codeassists.complete.statement" count="0" last-shown="0" last-used="0" shown-count="0" />
+     <feature id="refactoring.inlineTypedef" count="0" last-shown="0" last-used="0" shown-count="0" />
+@@ -17,42 +17,42 @@
+     <feature id="codeassists.overrideimplement" count="0" last-shown="0" last-used="0" shown-count="0" />
+     <feature id="codeassists.parameterInfo" count="0" last-shown="0" last-used="0" shown-count="0" />
+     <feature id="refactoring.inlineParameter" count="0" last-shown="0" last-used="0" shown-count="0" />
+-    <feature id="codeassists.quickdefinition" count="0" last-shown="1532576047823" last-used="0" shown-count="11" />
+-    <feature id="editing.completion.basic" count="671" last-shown="0" last-used="1532926569029" shown-count="0" />
++    <feature id="codeassists.quickdefinition" count="0" last-shown="1533354468977" last-used="0" shown-count="12" />
++    <feature id="editing.completion.basic" count="749" last-shown="0" last-used="1533448112475" shown-count="0" />
+     <feature id="refactoring.inlineConst" count="0" last-shown="0" last-used="0" shown-count="0" />
+     <feature id="tag.name.completion" count="0" last-shown="0" last-used="0" shown-count="0" />
+     <feature id="generate.definitions" count="0" last-shown="0" last-used="0" shown-count="0" />
+     <feature id="refactoring.extractMethod" count="0" last-shown="0" last-used="0" shown-count="0" />
+     <feature id="refactoring.introduceDefine" count="0" last-shown="0" last-used="0" shown-count="0" />
+     <feature id="codeassists.surroundwith.expression" count="0" last-shown="0" last-used="0" shown-count="0" />
+-    <feature id="editing.select.word" count="29" last-shown="0" last-used="1532923928951" shown-count="0" />
++    <feature id="editing.select.word" count="45" last-shown="0" last-used="1533467752239" shown-count="0" />
+     <feature id="refactoring.extractSuperclass" count="0" last-shown="0" last-used="0" shown-count="0" />
+     <feature id="navigation.goto.declaration" count="2" last-shown="0" last-used="1531543620419" shown-count="0" />
+     <feature id="refactoring.inlineMethod" count="0" last-shown="0" last-used="0" shown-count="0" />
+     <feature id="refactoring.extractSubclass" count="0" last-shown="0" last-used="0" shown-count="0" />
+-    <feature id="editing.completion.smarttype.general" count="0" last-shown="1532925933370" last-used="0" shown-count="443" />
++    <feature id="editing.completion.smarttype.general" count="0" last-shown="1533448028743" last-used="0" shown-count="490" />
+     <feature id="navigation.popup.file.structure" count="0" last-shown="0" last-used="0" shown-count="0" />
+     <feature id="codeassists.liveTemplates" count="0" last-shown="0" last-used="0" shown-count="0" />
+     <feature id="navigation.select.in" count="0" last-shown="0" last-used="0" shown-count="0" />
+     <feature id="navigation.goto.usages" count="0" last-shown="0" last-used="0" shown-count="0" />
+-    <feature id="codeassists.quickjavadoc" count="0" last-shown="1532576047823" last-used="0" shown-count="11" />
++    <feature id="codeassists.quickjavadoc" count="0" last-shown="1533354468977" last-used="0" shown-count="12" />
+     <feature id="refactoring.introduceParameter" count="0" last-shown="0" last-used="0" shown-count="0" />
+     <feature id="refactoring.inlineLocalVar" count="0" last-shown="0" last-used="0" shown-count="0" />
+     <feature id="editing.completion.changeSorting" count="0" last-shown="0" last-used="0" shown-count="0" />
+     <feature id="refactoring.appCodeIntroduceVariable" count="0" last-shown="0" last-used="0" shown-count="0" />
+     <feature id="refactoring.moveMembers" count="0" last-shown="0" last-used="0" shown-count="0" />
+     <completionStatsTag>
+-      <option name="sparedCharacters" value="5967" />
+-      <option name="invocations" value="566" />
++      <option name="sparedCharacters" value="6609" />
++      <option name="invocations" value="630" />
+       <option name="startDate" value="1531504800000" />
+-      <option name="dayCount" value="8" />
+-      <option name="lastDate" value="1532887200000" />
++      <option name="dayCount" value="10" />
++      <option name="lastDate" value="1533405600000" />
+     </completionStatsTag>
+     <fixesStatsTag>
+-      <option name="invocations" value="23" />
++      <option name="invocations" value="24" />
+       <option name="startDate" value="1531504800000" />
+-      <option name="dayCount" value="6" />
+-      <option name="lastDate" value="1532887200000" />
++      <option name="dayCount" value="7" />
++      <option name="lastDate" value="1533319200000" />
+     </fixesStatsTag>
+   </component>
+ </application>
+\ No newline at end of file
+Index: .AndroidStudio3.1/config/options/options.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .AndroidStudio3.1/config/options/options.xml	(date 1533462834000)
++++ .AndroidStudio3.1/config/options/options.xml	(date 1533469090279)
+@@ -6,13 +6,13 @@
+     <property name="installed.kotlin.plugin.version" value="1.2.30-release-Studio3.1-1" />
+     <property name="Default.savedEditorTheme" value="_@user_Default" />
+     <property name="Darcula.savedEditorTheme" value="_@user_Darcula" />
+-    <property name="file.chooser.recent.files" value="$USER_HOME$/AndroidStudioProjects/SimpleListView&#10;C:/Users/Jmidar/AndroidStudioProjects/ListView&#10;C:/Users/Jmidar/AndroidStudioProjects/JmidarBrowser&#10;C:/Users/Jmidar/AndroidStudioProjects/SimpleWebBrowser&#10;C:/Users/Jmidar/AndroidStudioProjects/Arnab_Browser&#10;C:/Users/Jmidar/AndroidStudioProjects/ArnabBrowser&#10;C:/Users/Jmidar/AndroidStudioProjects/Player&#10;E:/Android/soft/Sdk&#10;C:/Users/Jmidar/AndroidStudioProjects/CV&#10;C:/Users/Jmidar/AndroidStudioProjects/IntentExample" />
++    <property name="file.chooser.recent.files" value="$USER_HOME$/AndroidStudioProjects/VideoPlayer2&#10;C:/Users/Jmidar/AndroidStudioProjects/VideoPlayer&#10;C:/Users/Jmidar/AndroidStudioProjects/GoogleMap&#10;C:/Users/Jmidar/AndroidStudioProjects/SimpleListView&#10;C:/Users/Jmidar/AndroidStudioProjects/ListView&#10;C:/Users/Jmidar/AndroidStudioProjects/JmidarBrowser&#10;C:/Users/Jmidar/AndroidStudioProjects/SimpleWebBrowser&#10;C:/Users/Jmidar/AndroidStudioProjects/Arnab_Browser&#10;C:/Users/Jmidar/AndroidStudioProjects/ArnabBrowser&#10;C:/Users/Jmidar/AndroidStudioProjects/Player&#10;E:/Android/soft/Sdk&#10;C:/Users/Jmidar/AndroidStudioProjects/CV&#10;C:/Users/Jmidar/AndroidStudioProjects/IntentExample" />
+     <property name="MobileminApi" value="19" />
+     <property name="build.toolwindow.Sync.selection.state" value="com.intellij.build.BuildTreeConsoleView" />
+     <property name="lastTip" value="2" />
+     <property name="android-component-compatibility-check" value="1532959442206" />
+     <property name="build.toolwindow.Build.selection.state" value="com.intellij.build.BuildTreeConsoleView" />
+-    <property name="file.gist.reindex.count" value="691" />
++    <property name="file.gist.reindex.count" value="845" />
+     <property name="ATTACHED_TOOL_WINDOW.DEFAULT.Preview.PALETTE.LEFT" value="true" />
+     <property name="ATTACHED_TOOL_WINDOW.Preview.PALETTE.LEFT" value="true" />
+     <property name="ATTACHED_TOOL_WINDOW.DEFAULT.Preview.PALETTE.SPLIT" value="false" />
+@@ -37,7 +37,7 @@
+     <property name="ATTACHED_TOOL_WINDOW.DEFAULT.NELE_EDITOR.TOOL_ORDER" value="PALETTE,PROPERTIES,COMPONENT_TREE" />
+     <property name="ATTACHED_TOOL_WINDOW.NELE_EDITOR.TOOL_ORDER" value="PALETTE,PROPERTIES,COMPONENT_TREE" />
+     <property name="ATTACHED_TOOL_WINDOW.NELE_EDITOR.LEFT.UNSCALED.WIDTH" value="225" />
+-    <property name="ATTACHED_TOOL_WINDOW.NELE_EDITOR.RIGHT.UNSCALED.WIDTH" value="225" />
++    <property name="ATTACHED_TOOL_WINDOW.NELE_EDITOR.RIGHT.UNSCALED.WIDTH" value="251" />
+     <property name="com.intellij.diagnostic.IdeErrorsDialogactiveTab" value="0" />
+     <property name="ExpandBeforeRunStepsPanel" value="true" />
+     <property name="com.intellij.history.integration.ui.views.FileHistoryDialog.0" value="300" />
+@@ -50,7 +50,6 @@
+     <property name="ATTACHED_TOOL_WINDOW.Preview.PALETTE.UNSCALED.WIDTH" value="225" />
+     <property name="ExpandRunDashboardTypesPanel" value="false" />
+     <property name="ResourceChooserGridMode" value="true" />
+-    <property name="CommitChangeListDialog.DETAILS_SPLITTER_PROPORTION_2" value="0.6354515" />
+-    <property name="ATTACHED_TOOL_WINDOW.NELE_EDITOR.PROPERTIES.MINIMIZED" value="true" />
++    <property name="CommitChangeListDialog.DETAILS_SPLITTER_PROPORTION_2" value="0.71070236" />
+   </component>
+ </application>
+\ No newline at end of file
+Index: .AndroidStudio3.1/config/options/recentProjects.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .AndroidStudio3.1/config/options/recentProjects.xml	(date 1533462834000)
++++ .AndroidStudio3.1/config/options/recentProjects.xml	(date 1533469568408)
+@@ -2,6 +2,9 @@
+   <component name="RecentProjectsManager">
+     <option name="recentPaths">
+       <list>
++        <option value="$USER_HOME$/AndroidStudioProjects/VideoPlayer2" />
++        <option value="$USER_HOME$/AndroidStudioProjects/VideoPlayer" />
++        <option value="$USER_HOME$/AndroidStudioProjects/GoogleMap" />
+         <option value="$USER_HOME$/AndroidStudioProjects/TweenAnimation" />
+         <option value="$USER_HOME$/AndroidStudioProjects/SimpleListViewAboutPerson" />
+         <option value="$USER_HOME$/AndroidStudioProjects/SimpleListView" />
+@@ -18,10 +21,10 @@
+     </option>
+     <option name="openPaths">
+       <list>
+-        <option value="$USER_HOME$/AndroidStudioProjects/TweenAnimation" />
++        <option value="$USER_HOME$/AndroidStudioProjects/VideoPlayer2" />
+       </list>
+     </option>
+-    <option name="lastPath" value="$USER_HOME$/AndroidStudioProjects/TweenAnimation" />
++    <option name="lastPath" value="$USER_HOME$/AndroidStudioProjects/VideoPlayer2" />
+     <option name="pid" value="" />
+     <option name="additionalInfo">
+       <map>
+@@ -58,6 +61,17 @@
+             </RecentProjectMetaInfo>
+           </value>
+         </entry>
++        <entry key="$USER_HOME$/AndroidStudioProjects/GoogleMap">
++          <value>
++            <RecentProjectMetaInfo>
++              <option name="build" value="AI-173.4819257" />
++              <option name="productionCode" value="AI" />
++              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
++              <option name="projectOpenTimestamp" value="1533444016718" />
++              <option name="buildTimestamp" value="1528133407816" />
++            </RecentProjectMetaInfo>
++          </value>
++        </entry>
+         <entry key="$USER_HOME$/AndroidStudioProjects/IntentExample">
+           <value>
+             <RecentProjectMetaInfo>
+@@ -163,8 +177,30 @@
+               <option name="build" value="AI-173.4819257" />
+               <option name="productionCode" value="AI" />
+               <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+-              <option name="projectOpenTimestamp" value="1533053034598" />
+-              <option name="buildTimestamp" value="1528133434366" />
++              <option name="projectOpenTimestamp" value="1533354427075" />
++              <option name="buildTimestamp" value="1528133432269" />
++            </RecentProjectMetaInfo>
++          </value>
++        </entry>
++        <entry key="$USER_HOME$/AndroidStudioProjects/VideoPlayer">
++          <value>
++            <RecentProjectMetaInfo>
++              <option name="build" value="AI-173.4819257" />
++              <option name="productionCode" value="AI" />
++              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
++              <option name="projectOpenTimestamp" value="1533451328631" />
++              <option name="buildTimestamp" value="1528133407816" />
++            </RecentProjectMetaInfo>
++          </value>
++        </entry>
++        <entry key="$USER_HOME$/AndroidStudioProjects/VideoPlayer2">
++          <value>
++            <RecentProjectMetaInfo>
++              <option name="build" value="AI-173.4819257" />
++              <option name="productionCode" value="AI" />
++              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
++              <option name="projectOpenTimestamp" value="1533469567737" />
++              <option name="buildTimestamp" value="1528133416990" />
+             </RecentProjectMetaInfo>
+           </value>
+         </entry>
+Index: .AndroidStudio3.1/config/options/statistics.actions.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .AndroidStudio3.1/config/options/statistics.actions.xml	(date 1533462834000)
++++ .AndroidStudio3.1/config/options/statistics.actions.xml	(date 1533469568298)
+@@ -2,23 +2,25 @@
+   <component name="ActionsCollector">
+     <counts>
+       <entry action="" count="1" />
+-      <entry action="$Copy" count="5" />
+-      <entry action="$Delete" count="23" />
+-      <entry action="$Paste" count="30" />
++      <entry action="$Copy" count="9" />
++      <entry action="$Delete" count="24" />
++      <entry action="$Paste" count="35" />
+       <entry action="$SelectAll" count="7" />
+-      <entry action="$Undo" count="255" />
+-      <entry action="Android Lint Quick Fixes" count="1" />
++      <entry action="$Undo" count="280" />
++      <entry action="Android Lint Quick Fixes" count="2" />
+       <entry action="Android.BuildApk" count="1" />
+       <entry action="Android.RunAndroidSdkManager" count="3" />
+       <entry action="Android.ShowThemeEditor" count="1" />
+       <entry action="Annotate method with  @Override " count="1" />
+       <entry action="ChangesView.ApplyPatch" count="1" />
+-      <entry action="ChangesView.ApplyPatchFromClipboard" count="1" />
++      <entry action="ChangesView.ApplyPatchFromClipboard" count="2" />
++      <entry action="CheckForUpdate" count="1" />
+       <entry action="CheckinFiles" count="1" />
+-      <entry action="CheckinProject" count="3" />
+-      <entry action="CleanGradleProject" count="14" />
+-      <entry action="CloseProject" count="6" />
+-      <entry action="CodeCompletion" count="38" />
++      <entry action="CheckinProject" count="9" />
++      <entry action="CleanGradleProject" count="17" />
++      <entry action="CloseProject" count="7" />
++      <entry action="CodeCompletion" count="40" />
++      <entry action="CompareClipboardWithSelection" count="2" />
+       <entry action="Create  About(View)  in  MainActivity " count="1" />
+       <entry action="Create  Cont(View)  in  MainActivity " count="1" />
+       <entry action="Create  Contract(View)  in  MainActivity " count="3" />
+@@ -29,70 +31,78 @@
+       <entry action="Create  profile(View)  in  MainActivity " count="1" />
+       <entry action="Create  video(View)  in  MainActivity " count="1" />
+       <entry action="Create Class from Usage" count="3" />
+-      <entry action="Cvs.BrowseCVSRepository" count="1" />
+-      <entry action="Cvs.Import" count="3" />
+-      <entry action="Debug" count="1" />
+-      <entry action="EditorBackSpace" count="2442" />
+-      <entry action="EditorChooseLookupItem" count="656" />
+-      <entry action="EditorCopy" count="38" />
+-      <entry action="EditorCut" count="10" />
++      <entry action="Cvs.BrowseCVSRepository" count="2" />
++      <entry action="Cvs.Import" count="5" />
++      <entry action="Debug" count="3" />
++      <entry action="EditorBackSpace" count="2716" />
++      <entry action="EditorChooseLookupItem" count="732" />
++      <entry action="EditorCopy" count="43" />
++      <entry action="EditorCut" count="14" />
+       <entry action="EditorDelete" count="2" />
+-      <entry action="EditorDown" count="719" />
++      <entry action="EditorDown" count="753" />
+       <entry action="EditorDuplicate" count="7" />
+-      <entry action="EditorEnter" count="381" />
++      <entry action="EditorEnter" count="439" />
+       <entry action="EditorEscape" count="1" />
+-      <entry action="EditorLeft" count="804" />
++      <entry action="EditorLeft" count="893" />
+       <entry action="EditorLeftWithSelection" count="43" />
+       <entry action="EditorPageDown" count="1" />
+-      <entry action="EditorPaste" count="66" />
+-      <entry action="EditorRight" count="1389" />
+-      <entry action="EditorSplitLine" count="8" />
+-      <entry action="EditorTab" count="42" />
++      <entry action="EditorPaste" count="80" />
++      <entry action="EditorRight" count="1490" />
++      <entry action="EditorSplitLine" count="9" />
++      <entry action="EditorTab" count="56" />
+       <entry action="EditorToggleInsertState" count="2" />
+-      <entry action="EditorUp" count="207" />
++      <entry action="EditorUp" count="215" />
+       <entry action="ExpandRegion" count="1" />
+       <entry action="ExpandTreeNode" count="4" />
++      <entry action="FileChooser.Delete" count="1" />
+       <entry action="Fix Variable Type" count="1" />
+-      <entry action="Git.Init" count="1" />
+-      <entry action="Git.Log" count="1" />
+-      <entry action="Github.Share" count="3" />
++      <entry action="Git.Add" count="1" />
++      <entry action="Git.Init" count="3" />
++      <entry action="Git.Log" count="3" />
++      <entry action="Github.Create.Gist" count="1" />
++      <entry action="Github.Share" count="17" />
+       <entry action="GoogleCloudTools.DeployToAppEngine" count="1" />
++      <entry action="GoogleLogin.LoginService" count="4" />
+       <entry action="GotoClass" count="1" />
+       <entry action="GotoDeclaration" count="2" />
++      <entry action="Hg.Init" count="1" />
+       <entry action="HideAllWindows" count="3" />
+       <entry action="Import class" count="1" />
+       <entry action="InvalidateCaches" count="3" />
+       <entry action="LoadUnloadModules" count="3" />
++      <entry action="LocalHistory.PutLabel" count="1" />
+       <entry action="LocalHistory.ShowHistory" count="1" />
+       <entry action="MakeGradleModule" count="1" />
+-      <entry action="MakeGradleProject" count="2" />
+-      <entry action="NewDir" count="6" />
++      <entry action="MakeGradleProject" count="3" />
++      <entry action="NewDir" count="7" />
+       <entry action="NewFile" count="3" />
+-      <entry action="NewProject" count="7" />
++      <entry action="NewProject" count="10" />
+       <entry action="NewScratchFile" count="1" />
+-      <entry action="OpenFile" count="13" />
++      <entry action="OpenFile" count="15" />
+       <entry action="Override Resource in Other Configuration..." count="2" />
+       <entry action="RebuildGradleProject" count="11" />
+       <entry action="Rename Wrong Reference" count="1" />
+-      <entry action="RenameElement" count="2" />
+-      <entry action="Run" count="95" />
++      <entry action="RenameElement" count="3" />
++      <entry action="ReplaceInPath" count="1" />
++      <entry action="Run" count="118" />
+       <entry action="RunClass" count="2" />
+       <entry action="SaveAll" count="16" />
+       <entry action="SearchEverywhere" count="1" />
+       <entry action="ShowErrorDescription" count="2" />
+-      <entry action="ShowIntentionActions" count="47" />
++      <entry action="ShowIntentionActions" count="56" />
+       <entry action="ShowPopupMenu" count="1" />
+-      <entry action="ShowSettings" count="3" />
+-      <entry action="Start.Use.Vcs" count="2" />
++      <entry action="ShowSettings" count="5" />
++      <entry action="Start.Use.Vcs" count="3" />
+       <entry action="Subversion.ShareWholeProject" count="1" />
+       <entry action="Suppress_ Add tools_ignore= OnClick  attribute" count="1" />
+       <entry action="SynchronizeCurrentFile" count="2" />
+       <entry action="ToggleLineBreakpoint" count="3" />
+-      <entry action="Vcs.Push" count="1" />
+-      <entry action="Vcs.QuickListPopupAction" count="2" />
+-      <entry action="Vcs.UpdateProject" count="3" />
++      <entry action="Vcs.Push" count="12" />
++      <entry action="Vcs.QuickListPopupAction" count="5" />
++      <entry action="Vcs.UpdateProject" count="12" />
+       <entry action="template.create.ActivityEmpty Activity" count="10" />
+       <entry action="template.create.FolderRaw Resources Folder" count="1" />
++      <entry action="template.create.GoogleGoogle Maps Activity" count="1" />
+     </counts>
+   </component>
+ </application>
+\ No newline at end of file
+Index: .AndroidStudio3.1/config/options/statistics.application.usages.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .AndroidStudio3.1/config/options/statistics.application.usages.xml	(date 1533462834000)
++++ .AndroidStudio3.1/config/options/statistics.application.usages.xml	(date 1533469458146)
+@@ -2,17 +2,20 @@
+   <component name="UsageTrigger">
+     <counts>
+       <entry feature="CreateFile.CreateFileAction" count="1" />
+-      <entry feature="StripeButton[Android Profiler].hidden" count="35" />
+-      <entry feature="StripeButton[Android Profiler].shown" count="19" />
+-      <entry feature="StripeButton[Version Control].shown" count="2" />
+-      <entry feature="execute.AndroidRunConfigurationType.Debug" count="1" />
+-      <entry feature="execute.AndroidRunConfigurationType.Run" count="94" />
++      <entry feature="StripeButton[Android Profiler].hidden" count="43" />
++      <entry feature="StripeButton[Android Profiler].shown" count="23" />
++      <entry feature="StripeButton[Version Control].shown" count="3" />
++      <entry feature="execute.AndroidRunConfigurationType.Debug" count="3" />
++      <entry feature="execute.AndroidRunConfigurationType.Run" count="117" />
++      <entry feature="git.branch.delete.remote" count="1" />
++      <entry feature="git.branch.merge" count="1" />
++      <entry feature="git.branch.rebase" count="2" />
+       <entry feature="ide.settings.Appearance" count="1" />
+-      <entry feature="ide.settings.GitHub" count="1" />
++      <entry feature="ide.settings.GitHub" count="2" />
+       <entry feature="ide.settings.Project Structure" count="1" />
+       <entry feature="idea.caches.invalidated" count="2" />
+-      <entry feature="ideaapp.started" count="27" />
+-      <entry feature="terminal.win" count="3" />
++      <entry feature="ideaapp.started" count="31" />
++      <entry feature="terminal.win" count="4" />
+       <entry feature="welcome.screen.WelcomeScreen.CreateNewProject" count="5" />
+     </counts>
+   </component>
+Index: .AndroidStudio3.1/config/options/statistics.shortcuts.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .AndroidStudio3.1/config/options/statistics.shortcuts.xml	(date 1533462834000)
++++ .AndroidStudio3.1/config/options/statistics.shortcuts.xml	(date 1533469458071)
+@@ -1,34 +1,36 @@
+ <application>
+   <component name="ShortcutsCollector">
+     <counts>
+-      <entry shortcut="Alt+Enter" count="47" />
+-      <entry shortcut="Backspace" count="2437" />
++      <entry shortcut="Alt+Enter" count="56" />
++      <entry shortcut="Backspace" count="2711" />
+       <entry shortcut="Context Menu" count="1" />
+       <entry shortcut="Ctrl+A" count="7" />
+-      <entry shortcut="Ctrl+C" count="38" />
++      <entry shortcut="Ctrl+C" count="43" />
+       <entry shortcut="Ctrl+D" count="7" />
+-      <entry shortcut="Ctrl+Enter" count="8" />
++      <entry shortcut="Ctrl+Enter" count="9" />
+       <entry shortcut="Ctrl+F1" count="5" />
+       <entry shortcut="Ctrl+N" count="1" />
+       <entry shortcut="Ctrl+S" count="16" />
+-      <entry shortcut="Ctrl+Space" count="38" />
+-      <entry shortcut="Ctrl+V" count="66" />
+-      <entry shortcut="Ctrl+X" count="10" />
+-      <entry shortcut="Ctrl+Z" count="255" />
++      <entry shortcut="Ctrl+Shift+R" count="1" />
++      <entry shortcut="Ctrl+Space" count="40" />
++      <entry shortcut="Ctrl+V" count="80" />
++      <entry shortcut="Ctrl+X" count="14" />
++      <entry shortcut="Ctrl+Z" count="280" />
+       <entry shortcut="Delete" count="4" />
+-      <entry shortcut="Down" count="719" />
+-      <entry shortcut="Enter" count="1037" />
++      <entry shortcut="Down" count="753" />
++      <entry shortcut="Enter" count="1171" />
+       <entry shortcut="Escape" count="1" />
+       <entry shortcut="Insert" count="2" />
+-      <entry shortcut="Left" count="804" />
++      <entry shortcut="Left" count="893" />
+       <entry shortcut="NumPad +" count="4" />
+       <entry shortcut="Page Down" count="1" />
+-      <entry shortcut="Right" count="1389" />
++      <entry shortcut="Right" count="1490" />
+       <entry shortcut="Shift+Backspace" count="5" />
++      <entry shortcut="Shift+F6" count="1" />
+       <entry shortcut="Shift+Left" count="43" />
+       <entry shortcut="Shift+Shift" count="1" />
+-      <entry shortcut="Tab" count="42" />
+-      <entry shortcut="Up" count="207" />
++      <entry shortcut="Tab" count="56" />
++      <entry shortcut="Up" count="215" />
+     </counts>
+   </component>
+ </application>
+\ No newline at end of file
+Index: .AndroidStudio3.1/config/options/statistics.toolbar.clicks.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .AndroidStudio3.1/config/options/statistics.toolbar.clicks.xml	(date 1533462834000)
++++ .AndroidStudio3.1/config/options/statistics.toolbar.clicks.xml	(date 1533469568485)
+@@ -2,13 +2,18 @@
+   <component name="ToolbarClicksCollector">
+     <counts>
+       <entry action="Android.RunAndroidSdkManager@NavBarToolbar" count="3" />
+-      <entry action="Debug@NavBarToolbar" count="1" />
+-      <entry action="Run@NavBarToolbar" count="95" />
++      <entry action="CheckinProject@NavBarToolbar" count="3" />
++      <entry action="Debug@NavBarToolbar" count="3" />
++      <entry action="GoogleLogin.LoginService@NavBarToolbar" count="4" />
++      <entry action="MakeGradleProject@NavBarToolbar" count="1" />
++      <entry action="Run@NavBarToolbar" count="118" />
++      <entry action="Vcs.UpdateProject@NavBarToolbar" count="1" />
+       <entry action="com.android.tools.adtui.actions.DropDownAction@toolbar" count="2" />
+       <entry action="com.android.tools.adtui.workbench.AttachedToolWindow$HideAction@TOOL_WINDOW_TOOLBAR" count="3" />
+-      <entry action="com.android.tools.idea.common.actions.IssueNotificationAction@NlRhsConfigToolbar" count="6" />
++      <entry action="com.android.tools.idea.common.actions.IssueNotificationAction@NlRhsConfigToolbar" count="8" />
+       <entry action="com.android.tools.idea.common.actions.SetZoomAction@NlRhsConfigToolbar" count="46" />
+       <entry action="com.android.tools.idea.configurations.DeviceMenuAction@toolbar" count="4" />
++      <entry action="com.android.tools.idea.configurations.LocaleMenuAction@toolbar" count="2" />
+       <entry action="com.android.tools.idea.configurations.OrientationMenuAction@toolbar" count="5" />
+       <entry action="com.android.tools.idea.configurations.TargetMenuAction@toolbar" count="6" />
+       <entry action="com.android.tools.idea.configurations.ThemeMenuAction@toolbar" count="2" />
+@@ -18,6 +23,12 @@
+       <entry action="com.android.tools.idea.uibuilder.property.editors.BrowsePanel$BrowseAction@unknown" count="18" />
+       <entry action="com.android.tools.idea.uibuilder.property.editors.NlBooleanIconEditor$BooleanAction@Inspector Place" count="6" />
+       <entry action="com.android.tools.idea.uibuilder.property.editors.NlFlagsEditor$3@unknown" count="1" />
++      <entry action="com.intellij.diff.actions.impl.SetEditorSettingsAction@DiffToolbar" count="1" />
++      <entry action="com.intellij.notification.EventLogToolWindowFactory$EditNotificationSettings@EventLog" count="1" />
++      <entry action="com.intellij.openapi.vcs.changes.ui.ChangesBrowserBase$MyShowDiffAction@ChangesBrowser" count="1" />
++      <entry action="com.intellij.openapi.vcs.changes.ui.ChangesTree$6@ChangesBrowser" count="4" />
++      <entry action="com.intellij.openapi.vcs.changes.ui.ChangesTree$7@ChangesBrowser" count="2" />
++      <entry action="com.intellij.openapi.vcs.changes.ui.ChangesTree$ToggleShowDirectoriesAction@ChangesBrowser" count="2" />
+     </counts>
+   </component>
+ </application>
+\ No newline at end of file
+Index: .AndroidStudio3.1/config/options/ui.lnf.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .AndroidStudio3.1/config/options/ui.lnf.xml	(date 1533462834000)
++++ .AndroidStudio3.1/config/options/ui.lnf.xml	(date 1533469458317)
+@@ -3,6 +3,5 @@
+     <option name="FONT_FACE" value="Tahoma" />
+     <option name="FONT_SCALE" value="1.0" />
+     <option name="FONT_SIZE" value="11" />
+-    <option name="HIDE_TOOL_STRIPES" value="false" />
+   </component>
+ </application>
+\ No newline at end of file
+Index: .AndroidStudio3.1/config/options/updates.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .AndroidStudio3.1/config/options/updates.xml	(date 1533462834000)
++++ .AndroidStudio3.1/config/options/updates.xml	(date 1533469090312)
+@@ -11,7 +11,7 @@
+         <entry key="Android SDK" value="Stable Channel" />
+       </map>
+     </option>
+-    <option name="LAST_TIME_CHECKED" value="1533046534447" />
++    <option name="LAST_TIME_CHECKED" value="1533468782232" />
+     <option name="LAST_BUILD_CHECKED" value="AI-173.4819257" />
+   </component>
+ </application>
+\ No newline at end of file
+Index: .AndroidStudio3.1/config/options/window.manager.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .AndroidStudio3.1/config/options/window.manager.xml	(date 1533462834000)
++++ .AndroidStudio3.1/config/options/window.manager.xml	(date 1533469090322)
+@@ -1,6 +1,6 @@
+ <application>
+   <component name="WindowManager">
+-    <frame x="-8" y="-8" width="695" height="728" extended-state="6" />
++    <frame x="614" y="23" width="695" height="728" extended-state="6" />
+     <layout>
+       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+Index: .AndroidStudio3.1/config/options/window.state.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .AndroidStudio3.1/config/options/window.state.xml	(date 1533462834000)
++++ .AndroidStudio3.1/config/options/window.state.xml	(date 1533469090325)
+@@ -1,5 +1,8 @@
+ <application>
+   <component name="WindowStateApplicationService">
++    <state x="92" y="92" width="1119" height="584" key="DiffContextDialog" />
++    <state x="92" y="92" width="1119" height="584" key="DiffContextDialog/1366.768" />
++    <state x="92" y="92" width="1119" height="584" key="DiffContextDialog@1366.768" />
+     <state x="133" y="130" width="1060" height="528" key="com.intellij.history.integration.ui.views.FileHistoryDialog" />
+     <state x="133" y="130" width="1060" height="528" key="com.intellij.history.integration.ui.views.FileHistoryDialog/1366.768" />
+     <state x="133" y="130" width="1060" height="528" key="com.intellij.history.integration.ui.views.FileHistoryDialog@1366.768" />
+Index: .bash_history
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .bash_history	(date 1533462834000)
++++ .bash_history	(date 1533469090330)
+@@ -371,3 +371,13 @@
+ git init
+ git commit - m "Android Simple My Browser Project"
+ git commit -m "Android Simple My Browser Project"
++git init
++https://github.com/Jmidar/Tween_Animation.git
++git remote add origin https://github.com/Jmidar/Tween_Animation.git
++git commit -m "practice"
++git push -u origin master
++git init
++git remote add origin https://github.com/Jmidar/Android_Video_Player.git
++git commit -m "practice"
++git push -u origin master
++git add
